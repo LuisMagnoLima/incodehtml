@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    style="
+      font-family: 'Courier New', Courier, monospace;
+      background-color: azure;
+    "
+  >
+    <header>
+      <h1>Olá meu nome é Luis Magno dos Santos de Lima!</h1>
+      <ul>
+        <li>Sobre Mim</li>
+        <li>Habilidades</li>
+        <li>Contatos</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Sobre Mim:</h1>
+        <p
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            font-style: italic;
+          "
+        >
+          Gosto de estudar sobre linguagens de programação, frameworks, BD.
+          Atualmente estou dando uma olhada sobre o conteúdo de redes, já que
+          estou achando interessante porém meu conhecimento ainda é bem básico.
+        </p>
+        <h3> Outras coisas que gosto são: </h3>
+        <ol style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+          <li>Gosto de Animais </li>
+          <li> Gosto de Plantas </li>
+          <li> Gosto de jogar</li>
+          
+        </ol>
+      </section>
+
+      <section>
+        <fieldset>
+          <h2>Formulario:</h2>
+          <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" /><br />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" /><br />
+            <label> Sexo: </label>
+            <input type="radio" value="Masculino">Masculino
+            <input type="radio" value="Feminino">Feminino
+            <input type="radio" value="Muito">Muito
+          </br>
+            <label>Aréa de interesse: </label>
+            <select> 
+              <option> Desenvolvedor</option>
+              <option>Redes</option>
+              <option>QA</option>
+            </select>
+          </br>
+          <label> Se gostou do formulario marque a caixa </label>
+            <input type="checkbox">
+          </br>
+            <button id="butao">Enviar</button>
+          </fieldset>
+        </fieldset>
+      </section>
+      <a href="https://github.com/LuisMagnoLima"> Meu Github </a> 
+    </br>
+      <a href="https://codesandbox.io/p/sandbox/q7qsnd"> Atividade no Code Sandbox </a>
+    </main>
+    <footer>
+    <p style="font-size: smaller;">©️ Pàthei Màthos </p>
+    </footer>
+  </body>
+</html>
